@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SMOU GROUP | فيديوهات الخشبية - Wooden Videos</title>
+<title>SMOU GROUP | آراء العملاء - Client Reviews</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,36 +11,36 @@
 
 <style>
 :root{
-  --bg1:#0b0704;
-  --bg2:#20130a;
-  --bg3:#0e0805;
+  --bg1:#03060d;
+  --bg2:#081527;
+  --bg3:#050d1a;
   --sky:#8fd6ff;
   --sky-light:#d7f1ff;
-  --wood-1:#f6dcb8;
-  --wood-2:#d8a35e;
-  --wood-3:#a56a34;
-  --wood-deep:#5c3418;
+  --sky-deep:#3d8fd0;
+  --star-1:#ffe9b8;
+  --star-2:#f0c674;
+  --star-3:#c9922f;
   --ivory:#ffffff;
-  --text:#fbeee0;
-  --muted:rgba(251,238,224,.68);
-  --border:rgba(216,163,94,.24);
-  --border-strong:rgba(246,220,184,.5);
+  --text:#eef6ff;
+  --muted:rgba(238,246,255,.68);
+  --border:rgba(143,214,255,.20);
+  --border-strong:rgba(240,198,116,.45);
   --glass: linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.015));
-  --shadow:0 18px 45px rgba(0,0,0,.42);
-  --shadowStrong:0 30px 90px rgba(0,0,0,.62);
+  --shadow:0 18px 45px rgba(0,0,10,.40);
+  --shadowStrong:0 30px 90px rgba(0,0,10,.6);
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-::selection{background:rgba(216,163,94,.32); color:#2a1608}
+::selection{background:rgba(240,198,116,.3); color:#fff}
 
 body{
   margin:0;
   font-family:"Tajawal",sans-serif;
   color:var(--text);
   background:
-    radial-gradient(1000px 480px at 15% 6%, rgba(216,163,94,.16), transparent 55%),
-    radial-gradient(900px 420px at 88% 14%, rgba(246,220,184,.08), transparent 55%),
-    radial-gradient(700px 500px at 50% 100%, rgba(92,52,24,.22), transparent 60%),
+    radial-gradient(1000px 480px at 15% 6%, rgba(143,214,255,.13), transparent 55%),
+    radial-gradient(900px 420px at 88% 14%, rgba(240,198,116,.08), transparent 55%),
+    radial-gradient(700px 500px at 50% 100%, rgba(61,143,208,.10), transparent 60%),
     linear-gradient(180deg,var(--bg1),var(--bg2) 55%,var(--bg3));
   min-height:100vh;
   position:relative;
@@ -50,7 +50,7 @@ body{
 body::before{
   content:"";
   position:fixed; inset:0;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.032'/%3E%3C/svg%3E");
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
   pointer-events:none;
   z-index:0;
   mix-blend-mode:overlay;
@@ -61,13 +61,13 @@ body::before{
   width:34vw;height:34vw;
   border-radius:50%;
   filter:blur(120px);
-  opacity:.16;
+  opacity:.15;
   pointer-events:none;
   z-index:0;
   animation:blobFloat 14s ease-in-out infinite;
 }
-.orb.a{top:-10vw; right:-8vw; background:radial-gradient(circle, rgba(216,163,94,.9), transparent 65%);}
-.orb.b{left:-10vw; bottom:-12vw; width:30vw;height:30vw; background:radial-gradient(circle, rgba(246,220,184,.4), transparent 62%); animation-delay:-6s;}
+.orb.a{top:-10vw; right:-8vw; background:radial-gradient(circle, rgba(143,214,255,.9), transparent 65%);}
+.orb.b{left:-10vw; bottom:-12vw; width:30vw;height:30vw; background:radial-gradient(circle, rgba(240,198,116,.35), transparent 62%); animation-delay:-6s;}
 @keyframes blobFloat{ 0%,100%{transform:translateY(0) scale(1)} 50%{transform:translateY(-18px) scale(1.06)} }
 
 .wrap{position:relative; z-index:1; max-width:1180px;margin:auto;padding:22px}
@@ -99,28 +99,28 @@ body::before{
   border:1px solid var(--border);
   display:flex;align-items:center;justify-content:center;
   overflow:hidden;
-  box-shadow:0 12px 24px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.12);
+  box-shadow:0 12px 24px rgba(0,0,10,.35), inset 0 1px 0 rgba(255,255,255,.12);
   position:relative;
 }
 .brand .logoBox::after{
   content:"";
   position:absolute; inset:0;
-  background:linear-gradient(120deg, transparent 30%, rgba(246,220,184,.28) 48%, transparent 66%);
+  background:linear-gradient(120deg, transparent 30%, rgba(255,255,255,.25) 48%, transparent 66%);
   transform:translateX(-120%);
   animation:sheen 5s ease-in-out infinite;
 }
 @keyframes sheen{ 0%,60%{transform:translateX(-120%)} 100%{transform:translateX(120%)} }
-.brand img{width:70%;height:70%;object-fit:contain;filter:drop-shadow(0 4px 8px rgba(0,0,0,.45)); position:relative; z-index:1;}
+.brand img{width:70%;height:70%;object-fit:contain;filter:drop-shadow(0 4px 8px rgba(0,0,10,.4)); position:relative; z-index:1;}
 .brand .name{font-weight:800; font-size:15px; color:var(--ivory); letter-spacing:.3px;}
 .brand .sub{font-size:11.5px;color:var(--muted); letter-spacing:1px; margin-top:2px; text-transform:uppercase;}
 
 .pageTitle{text-align:center}
 .pageTitle h1{
   margin:0;
-  font-size:17px;
+  font-size:19px;
   font-weight:800;
-  letter-spacing:.4px;
-  background:linear-gradient(100deg,#a56a34 0%, #f6dcb8 22%, #fbeee0 45%, #d8a35e 60%, #f6dcb8 82%, #a56a34 100%);
+  letter-spacing:.5px;
+  background:linear-gradient(100deg,#c9dae6 0%, #ffffff 22%, var(--sky-light) 45%, #f0c674 60%, #ffffff 82%, #c9dae6 100%);
   background-size:220% auto;
   -webkit-background-clip:text;
   background-clip:text;
@@ -128,17 +128,24 @@ body::before{
   animation:shimmerText 6s linear infinite;
 }
 @keyframes shimmerText{ 0%{background-position:0% 50%} 100%{background-position:220% 50%} }
+.pageTitle .stars{
+  display:flex;
+  justify-content:center;
+  gap:3px;
+  margin-top:6px;
+}
+.pageTitle .stars svg{width:13px;height:13px;fill:var(--star-2); filter:drop-shadow(0 0 4px rgba(240,198,116,.5));}
 .pageTitle .count{
-  margin-top:4px;
+  margin-top:5px;
   font-size:11px;
   color:var(--muted);
   letter-spacing:.5px;
 }
-.pageTitle .count b{color:var(--wood-1); font-weight:800;}
+.pageTitle .count b{color:var(--sky-light); font-weight:800;}
 
 .branch{
   font-size:12px;
-  color:var(--wood-1);
+  color:var(--sky-light);
   font-weight:700;
   padding:9px 16px;
   border-radius:999px;
@@ -152,7 +159,7 @@ body::before{
   position:absolute; inset:-1px;
   border-radius:999px;
   padding:1px;
-  background:linear-gradient(120deg, transparent, rgba(216,163,94,.75), transparent);
+  background:linear-gradient(120deg, transparent, rgba(240,198,116,.6), transparent);
   -webkit-mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite:xor;
   mask-composite:exclude;
@@ -177,7 +184,7 @@ body::before{
 .card::after{
   content:"";
   position:absolute; top:0; left:0; right:0; height:1px;
-  background:linear-gradient(90deg, transparent, rgba(216,163,94,.75), transparent);
+  background:linear-gradient(90deg, transparent, rgba(240,198,116,.55), transparent);
 }
 
 .grid{
@@ -212,7 +219,7 @@ body::before{
 .videoIcon::after{
   content:"";
   position:absolute; inset:0; z-index:2;
-  background:linear-gradient(120deg, transparent 35%, rgba(246,220,184,.26) 50%, transparent 65%);
+  background:linear-gradient(120deg, transparent 35%, rgba(255,255,255,.2) 50%, transparent 65%);
   transform:translateX(-140%);
   pointer-events:none;
 }
@@ -221,15 +228,15 @@ body::before{
 
 .videoIcon:hover{
   transform:translateY(-7px) scale(1.015);
-  border-color:rgba(216,163,94,.65);
-  box-shadow:0 24px 48px rgba(0,0,0,.55), 0 0 26px rgba(216,163,94,.2);
+  border-color:rgba(240,198,116,.55);
+  box-shadow:0 24px 48px rgba(0,0,10,.55), 0 0 26px rgba(143,214,255,.16);
 }
 .videoIcon:focus-visible{
-  outline:2px solid var(--wood-2);
+  outline:2px solid var(--sky);
   outline-offset:2px;
 }
 
-.thumbWrap{position:relative; width:100%; aspect-ratio:9/16; background:linear-gradient(160deg,#231409,#0e0805); overflow:hidden;}
+.thumbWrap{position:relative; width:100%; aspect-ratio:9/16; background:linear-gradient(160deg,#0b1626,#050c17); overflow:hidden;}
 .thumbWrap img{
   width:100%;
   height:100%;
@@ -241,9 +248,23 @@ body::before{
 .thumbWrap img.loaded{opacity:1;}
 .videoIcon:hover .thumbWrap img{transform:scale(1.07);}
 
+.quoteMark{
+  position:absolute;
+  top:8px; right:8px;
+  z-index:3;
+  width:24px;height:24px;
+  border-radius:8px;
+  background:rgba(4,9,18,.5);
+  border:1px solid rgba(240,198,116,.35);
+  backdrop-filter:blur(6px);
+  display:flex;align-items:center;justify-content:center;
+  opacity:.85;
+}
+.quoteMark svg{width:12px;height:12px;fill:var(--star-2);}
+
 .skeleton{
   position:absolute; inset:0;
-  background:linear-gradient(100deg, rgba(255,255,255,.03) 20%, rgba(246,220,184,.1) 40%, rgba(255,255,255,.03) 60%);
+  background:linear-gradient(100deg, rgba(255,255,255,.03) 20%, rgba(255,255,255,.09) 40%, rgba(255,255,255,.03) 60%);
   background-size:200% 100%;
   animation:skeletonMove 1.4s ease-in-out infinite;
 }
@@ -256,8 +277,8 @@ body::before{
   transform:translate(-50%,-50%) scale(.85);
   width:42px;height:42px;
   border-radius:50%;
-  background:rgba(11,7,4,.55);
-  border:1px solid rgba(246,220,184,.45);
+  background:rgba(4,9,18,.5);
+  border:1px solid rgba(255,255,255,.4);
   backdrop-filter:blur(8px);
   display:flex; align-items:center; justify-content:center;
   z-index:3;
@@ -267,7 +288,7 @@ body::before{
 .playIcon .ring{
   position:absolute; inset:-1px;
   border-radius:50%;
-  border:1px solid rgba(216,163,94,.65);
+  border:1px solid rgba(240,198,116,.6);
   opacity:0;
 }
 .videoIcon:hover .playIcon{opacity:1; transform:translate(-50%,-50%) scale(1);}
@@ -280,19 +301,19 @@ body::before{
   text-align:center;
   font-weight:700;
   font-size:13.5px;
-  color:var(--wood-1);
+  color:var(--sky-light);
   border-top:1px solid var(--border);
   letter-spacing:.4px;
   position:relative;
   z-index:1;
-  background:linear-gradient(180deg, transparent, rgba(0,0,0,.15));
+  background:linear-gradient(180deg, transparent, rgba(0,0,0,.12));
 }
 
 /* ===== CINEMATIC LIGHTBOX PLAYER ===== */
 .overlay{
   position:fixed;
   inset:0;
-  background:rgba(10,6,3,.84);
+  background:rgba(2,4,9,.82);
   backdrop-filter:blur(10px) saturate(1.1);
   -webkit-backdrop-filter:blur(10px) saturate(1.1);
   z-index:50;
@@ -311,8 +332,8 @@ body::before{
   border-radius:24px;
   overflow:hidden;
   border:1px solid var(--border-strong);
-  background:linear-gradient(180deg, rgba(45,26,13,.9), rgba(16,9,5,.96));
-  box-shadow:0 40px 120px rgba(0,0,0,.72), 0 0 0 1px rgba(255,255,255,.03) inset;
+  background:linear-gradient(180deg, rgba(20,30,44,.9), rgba(6,12,22,.95));
+  box-shadow:0 40px 120px rgba(0,0,10,.7), 0 0 0 1px rgba(255,255,255,.03) inset;
   transform:scale(.92) translateY(18px);
   transition:transform .35s cubic-bezier(.2,.8,.2,1);
   position:relative;
@@ -321,7 +342,7 @@ body::before{
 .playerBox::before{
   content:"";
   position:absolute; top:0; left:0; right:0; height:1px;
-  background:linear-gradient(90deg, transparent, rgba(246,220,184,.85), transparent);
+  background:linear-gradient(90deg, transparent, rgba(240,198,116,.8), transparent);
   z-index:2;
 }
 
@@ -386,7 +407,7 @@ iframe{
   width:26px;height:26px;
   border-radius:50%;
   border:2px solid rgba(255,255,255,.15);
-  border-top-color:var(--wood-2);
+  border-top-color:var(--star-2);
   animation:spin .8s linear infinite;
 }
 @keyframes spin{ to{transform:rotate(360deg)} }
@@ -394,7 +415,7 @@ iframe{
 /* ===== SCROLLBAR ===== */
 ::-webkit-scrollbar{width:9px;}
 ::-webkit-scrollbar-track{background:transparent;}
-::-webkit-scrollbar-thumb{background:linear-gradient(180deg, rgba(216,163,94,.45), rgba(246,220,184,.25)); border-radius:20px;}
+::-webkit-scrollbar-thumb{background:linear-gradient(180deg, rgba(143,214,255,.4), rgba(240,198,116,.3)); border-radius:20px;}
 
 @media (prefers-reduced-motion: reduce){
   *{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important;}
@@ -423,12 +444,19 @@ iframe{
     <div class="logoBox"><img src="logo.png"></div>
     <div>
       <div class="name">SMOU GROUP</div>
-      <div class="sub">Wooden Cabin</div>
+      <div class="sub">Silver Cabin</div>
     </div>
   </div>
 
   <div class="pageTitle">
-    <h1>فيديوهات الخشبية — Wooden Videos</h1>
+    <h1>آراء العملاء — Client Reviews</h1>
+    <div class="stars">
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+    </div>
     <div class="count"><b id="vidCount">0</b> فيديو</div>
   </div>
 
@@ -464,41 +492,45 @@ iframe{
 
 // جدول الفيديوهات — لم يتم تغيير أي رابط أو اسم
 const videos = [
-{name:"W1",url:"https://youtube.com/shorts/3b-_1ZfMAqs"},
-{name:"W2",url:"https://youtube.com/shorts/B1IFbalhWkk"},
-{name:"W3",url:"https://youtube.com/shorts/pPclOjGd6kQ"},
-{name:"W4",url:"https://youtube.com/shorts/YjV8NrQNVRs"},
-{name:"W5",url:"https://youtube.com/shorts/CILE332hsSU"},
-{name:"W6",url:"https://youtube.com/shorts/x1XOXTKA-CY?feature=share"},
-{name:"W7",url:"https://youtube.com/shorts/kJO_Hn4Lnds"},
-{name:"W8",url:"https://youtube.com/shorts/wszjn2RppYI"},
-{name:"W9",url:"https://youtube.com/shorts/4rYDcWJsURU?feature=share"},
-{name:"W10",url:"https://youtube.com/shorts/VQh0uOISeHg"},
-{name:"W11",url:"https://youtube.com/shorts/LpLnd23Dqhc"},
-{name:"W12",url:"https://youtube.com/shorts/3C1KoPvnefA"},
-{name:"W13",url:"https://youtube.com/shorts/hC9bA3MUYw8"},
-{name:"W14",url:"https://youtube.com/shorts/xwO9fX_Ed4s?feature=share"},
-{name:"W15",url:"https://youtube.com/shorts/wM9Es7vs_9Y"},
-{name:"W16",url:"https://youtube.com/shorts/QyzntlUzKpI"},
-{name:"W17",url:"https://youtube.com/shorts/dnlODlXMfUQ"},
-{name:"W18",url:"https://youtube.com/shorts/tXFyfSoyBR4?feature=share"},
-{name:"W19",url:"https://youtube.com/shorts/0EPNrEA7_KE?feature=share"},
-{name:"W20",url:"https://youtube.com/shorts/lkEuvF0Nk7w"},
-{name:"W21",url:"https://youtube.com/shorts/OD0HVpn6iXQ"},
-{name:"W22",url:"https://youtube.com/shorts/JnAUohC_R34"},
-{name:"W23",url:"https://youtube.com/shorts/VJvf5uo70vw"},
-{name:"W24",url:"https://youtube.com/shorts/KwpUgwoMzLo"},
-{name:"W25",url:"https://youtube.com/shorts/9e7VZ7bX0XQ"},
-{name:"W26",url:"https://youtube.com/shorts/KudW3RybtOU"},
-{name:"W27",url:"https://youtube.com/shorts/8K-eg0vp9w4"},
-{name:"W28",url:"https://youtube.com/shorts/WJruqzYtuOU"},
-{name:"W29",url:"https://youtube.com/shorts/pgtzdG0I18w"},
-{name:"W30",url:"https://youtube.com/shorts/J-r5v7bPO-E"},
-{name:"W31",url:"https://youtube.com/shorts/JVjRriIc7H0"},
-{name:"W32",url:"https://youtube.com/shorts/dwOaBDYcp40"},
-  {name:"W33",url:"https://youtube.com/shorts/hRsNi0c1hig"},
-  {name:"W34",url:"https://youtube.com/shorts/kuk40ke8OnY"},
-  {name:"W35",url:"https://youtube.com/shorts/psiucHiS5mI"}
+{name:"V1",url:"https://youtube.com/shorts/dboECnkkSSc"},
+{name:"V2",url:"https://youtube.com/shorts/D3Fml43U_rA"},
+{name:"V3",url:"https://youtube.com/shorts/LZy8eI3fR3A"},
+{name:"V4",url:"https://youtube.com/shorts/v9hpsTnu9EU"},
+{name:"V5",url:"https://youtube.com/shorts/aqTbTJ2bEig"},
+{name:"V6",url:"https://youtube.com/shorts/ZPI1VFjIlM8"},
+{name:"V7",url:"https://youtube.com/shorts/uZjAtjT65b4"},
+{name:"V8",url:"https://youtube.com/shorts/8cD1ia4I6ss"},
+{name:"V9",url:"https://youtube.com/shorts/4kdo40engCw"},
+{name:"V10",url:"https://youtube.com/shorts/qNg3-8WtWqM"},
+{name:"V11",url:"https://youtube.com/shorts/7NcUQd96fKo"},
+{name:"V12",url:"https://youtube.com/shorts/jy27d1gqAYk"},
+{name:"V13",url:"https://youtube.com/shorts/pbQlGTHNZ_U"},
+{name:"V14",url:"https://youtube.com/shorts/xLdd_z435I4"},
+{name:"V15",url:"https://youtube.com/shorts/qxYZAfzs6PY"},
+{name:"V16",url:"https://youtube.com/shorts/t4n1-lGvJF8"},
+{name:"V17",url:"https://www.youtube.com/watch?v=oN_EUmEtCJ8"},
+{name:"V18",url:"https://youtube.com/shorts/QSDUlg6M28A"},
+{name:"V19",url:"https://youtube.com/shorts/XmDjdtKAP0k"},
+{name:"V20",url:"https://youtube.com/shorts/UyE_DSXZLhk"},
+{name:"V21",url:"https://youtube.com/shorts/AF7x-bPLcW0"},
+{name:"V22",url:"https://youtube.com/shorts/JzxerHccAQc"},
+{name:"V23",url:"https://youtube.com/shorts/FySmZbUp8AU"},
+{name:"V24",url:"https://youtube.com/shorts/AYvhNgK_TCY"},
+{name:"V25",url:"https://youtube.com/shorts/p8OessQHlpY"},
+{name:"V26",url:"https://youtube.com/shorts/F1LFXs1WtXk"},
+{name:"V27",url:"https://youtube.com/shorts/ijMzSRl9MPY"},
+{name:"V28",url:"https://youtube.com/shorts/gblyDK320-A"},
+{name:"V29",url:"https://youtube.com/shorts/IemVAU4x5Do"},
+{name:"V30",url:"https://youtube.com/shorts/I_IcPNiT6xo"},
+{name:"V31",url:"https://youtube.com/shorts/Ko8YrdcOuzo"},
+{name:"V32",url:"https://youtube.com/shorts/xtykvzkiK1c"},
+{name:"V33",url:"https://youtube.com/shorts/UaVcBxmhEgU"},
+{name:"V34",url:"https://youtube.com/shorts/06ydexbfiO8"},
+{name:"V35",url:"https://youtube.com/shorts/aFpeqhYihaI"},
+  {name:"V36",url:"https://youtube.com/shorts/GUsBsB0RMNg"},
+{name:"V37",url:"https://youtube.com/shorts/2Giy14zgAh4"},
+  {name:"V38",url:"https://youtube.com/shorts/bQVntm8ufDQ"},
+    {name:"V39",url:"https://youtube.com/shorts/9BEsfpL76oo"}
 ];
 
 // استخراج ID من رابط الشورتس (مع معالجة احتياطية للروابط غير القياسية)
@@ -526,7 +558,7 @@ function render(){
   grid.innerHTML="";
   vidCount.textContent = videos.length;
 
-  // ترتيب تنازلي: W35 بالأعلى، W1 بالأسفل
+  // ترتيب تنازلي: V39 بالأعلى، V1 بالأسفل
   const order = videos.map((_, i) => i).reverse();
 
   order.forEach((i)=>{
@@ -543,6 +575,7 @@ function render(){
       <div class="thumbWrap">
         <img loading="lazy" src="${thumb}" alt="${v.name}">
         <div class="skeleton"></div>
+        <div class="quoteMark"><svg viewBox="0 0 24 24"><path d="M7 7h4v6H8c0 2-1 3-3 3v2c3 0 5-2 5-5V7zm10 0h4v6h-3c0 2-1 3-3 3v2c3 0 5-2 5-5V7z"/></svg></div>
         <div class="playIcon"><span class="ring"></span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
       </div>
       <div class="caption">${v.name}</div>`;
